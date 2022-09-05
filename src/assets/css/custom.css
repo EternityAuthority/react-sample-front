@@ -1,0 +1,122 @@
+.popular {
+    position: absolute;
+width: 105px;
+height: 29px;
+color: #F6CC08;
+left: 32px;
+top: 32px;
+background-color: #343434;
+border: none;
+
+
+    /* position: absolute;
+    margin-top: -80%;
+    margin-left: -5%;
+    color: #F6CC08;
+    background-color: #343434;
+    border: none; */
+}
+
+.search {
+    border-radius: 30px;
+    position: absolute;
+    margin-top: -25px;
+    width: auto;
+}
+
+.roundedbutton {
+    width: 100px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    /* padding: 10px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    margin-left: auto;
+    /* margin-right: 30px; */
+    background-color: 'none';
+    color: white;
+    /* border: 2px solid #4CAF50; */
+}
+
+.button1:hover {
+    background-color: #F6CC08;
+    color: black;
+}
+
+.ant-divider-horizontal {
+    clear: both;
+    
+    margin: 0px;
+    background: rgb(236, 236, 236);
+}
+
+h1,
+h3,
+h4 {
+    color: white;
+}
+
+#header .display {
+    margin: 1.5rem 5rem;
+}
+
+.display {
+    margin: 3rem 5rem;
+    /* margin-top: 10rem; */
+}
+
+.display-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.product-display-grid {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.display-filter > * {
+    margin: 10px;
+}
+
+.display-menu-sapce > * {
+    margin-right: 30px;
+}
+.dropdown{
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.whychoose {
+    /* height: 15vh; */
+    background-color: #1D1D1D;
+    color: white;
+  }
+  
+  .whychoose >p {
+    padding: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Plus Jakarta Sans'!important;
+    /* font-size: 20px; */
+  }
+
+.grid-area{
+    color:rgba(255, 255, 255, 0.6);
+    /* filter: brightness(50%); */
+}
